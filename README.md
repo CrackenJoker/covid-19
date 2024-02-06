@@ -1,50 +1,49 @@
-# Covid-19
 
-Dashboard starter template built with Vite, Vue 3, Tailwind CSS and TypeScript.
+Projeto COVID-19 Dashboard
+Descrição:
 
-Copied from https://github.com/tailwindcomponents/dashboard and converted to Vue.
+Este projeto é um dashboard interativo desenvolvido em Vue.js, ViteJS e Tailwind CSS que fornece informações sobre a COVID-19 em tempo real. O dashboard permite que os usuários visualizem:
 
-## Demo
+Casos confirmados: Número total de casos de COVID-19 confirmados em todo o mundo.
+Novos casos: Número de novos casos de COVID-19 confirmados nas últimas 24 horas.
+Total de mortes: Número total de mortes por COVID-19 em todo o mundo.
+Recuperados: Número total de pessoas que se recuperaram da COVID-19.
+Tecnologias:
 
-![Demo](https://i.imgur.com/RqXxEHL.gif)
+Vue.js: Framework JavaScript para desenvolvimento de interfaces de usuário.
+ViteJS: Ferramenta de build moderna para aplicações JavaScript.
+Tailwind CSS: Framework CSS para criação de interfaces de usuário responsivas.
+Funcionalidades:
 
-Note if you have access to [Tailwind UI](https://tailwindui.com), you can follow the following steps to add it:
+Gráficos interativos que representam a evolução dos casos confirmados, novos casos, mortes e recuperados ao longo do tempo.
+Filtros para visualizar dados por país, data e região.
+Painel de informações com resumo dos principais indicadores.
+Interface amigável e responsiva para desktops e dispositivos móveis.
+Recursos:
 
-1. Install `@tailwindcss/ui`:
+API COVID-19: https://covid19api.com/
+Documentação Vue.js: https://vuejs.org/
+Documentação ViteJS: https://vitejs.dev/
+Documentação Tailwind CSS: https://tailwindcss.com/
+Instalação:
 
-```sh
-pnpm add @tailwindcss/ui
-```
+Clone o repositório: git clone https://github.com/CrackenJoker/covid-19.git
+Navegue para a pasta do projeto: cd covid'19
+Instale as dependências: npm install
+Inicie o servidor de desenvolvimento: npm run dev
+Acesse o dashboard no navegador: http://localhost:3000
+Contribuições:
 
-2. Add the plugin in `tailwind.config.js` without changing anything else:
+Este projeto é open-source e você pode contribuir de diversas maneiras:
 
-```js
-// tailwind.config.js
-module.exports = {
-  // ...
-  // rest of the config
-  plugins: [require('@tailwindcss/ui')],
-}
-```
+Reportando bugs: https://github.com/CrackenJoker/covid-19/pulls
+Sugerindo melhorias: https://github.com/CrackenJoker/covid-19/pulls
+Enviando pull requests: https://github.com/CrackenJoker/covid-19/pulls
+Licença:
 
-## Project setup
+Este projeto está licenciado sob a licença MIT.
 
-```
-pnpm install
-```
+Contato:
 
-### Compiles and hot-reloads for development
-
-```
-pnpm dev
-```
-
-### Compiles and minifies for production
-
-```
-pnpm build
-```
-
-## License & copyright
-
-Licensed under the [MIT License](LICENSE.md).
+Nome: Cracken Joker
+Email: joelsoncandomba85@gmail.com
